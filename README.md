@@ -26,4 +26,4 @@ You can find out more here: https://www.python.org/downloads/
 
 * [Python](https://www.python.org/downloads/) - Programming language and framework used
 * [FontAwesome](https://fontawesome.com/v4.7.0/) - Additional Styling
-* [Boostrap](https://getbootstrap.com/) - Main styling for the page
+* [Bootstrap](https://getbootstrap.com/) - Main styling for the page
