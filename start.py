@@ -1,7 +1,8 @@
-#Imports
-import media, fresh_tomatoes
+# Imports
+import media
+import fresh_tomatoes
 
-#Establish all the movie variables
+# Establish all the movie variables
 interstellar = media.Movie("Interstellar",
                            "Space Stuff And Black Holes",
                            "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",
@@ -38,10 +39,15 @@ the_prestige = media.Movie("The Prestige",
                            "https://www.youtube.com/watch?v=a1AqrIkD7vU",
                            "PG+13")
 
-                      
+# Put movies into array
+movies = [
+    interstellar,
+    inception,
+    dunkirk,
+    dark_knight,
+    dark_knight_rises,
+    the_prestige
+    ]
 
-#Put movies into array
-movies = [interstellar, inception, dunkirk, dark_knight, dark_knight_rises, the_prestige]
-
-#Run web page using the array and fresh_tomatoes module
+# Run web page using the array and fresh_tomatoes module
 fresh_tomatoes.open_movies_page(movies)
